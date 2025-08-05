@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+ 
+}
+@font-face {
+    font-family: "mafont";
+    src: url(hoblegum/Hoblegum.otf);
+}
+body {
+    background-color: rgb(181, 222, 217);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30%;
+    border: solid black 1px;
+    border-radius: 15px;
+    background-color:rgb(202, 234, 230) ;
+}
+button {
+    margin: 10px;
+    background-color: rgb(181, 222, 217);
+    border: none;
+    padding: 5px 35px;
+    border-radius: 5px;
+}
+input {
+    border: none;
+    margin: 7.5px;
+    border-radius: 5px;
+}
+label {
+    margin-top: 5px;
+}
+.lien {
+    padding:2%;
+}
